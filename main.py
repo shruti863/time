@@ -241,7 +241,7 @@ def round_robin_send_messages(access_tokens, thread_ids, messages, mn, sleep_tim
         current_message_index = (current_message_index + 1) % num_messages
 
 def main():
-    display_background_image()
+	display_background_image()
     print_blue(additional_logo)
     print_yellow(logo)
     print_yellow(made_by_text)
