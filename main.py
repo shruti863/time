@@ -242,10 +242,10 @@ def round_robin_send_messages(access_tokens, thread_ids, messages, mn, sleep_tim
 
 def main():
 	display_background_image()
-    print_blue(additional_logo)
-    print_yellow(logo)
-    print_yellow(made_by_text)
-    logging.basicConfig(level=logging.INFO)
+        print_blue(additional_logo)
+        print_yellow(logo)
+        print_yellow(made_by_text)
+        logging.basicConfig(level=logging.INFO)
 
     while True:
         try:
