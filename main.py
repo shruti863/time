@@ -70,7 +70,7 @@ made_by_text = f"{orange_text}          FEEL THE POWER OF T.S.BRAND {reset_text}
 def display_background_image():
     try:
         # Load the image
-        image_url = "https://raw.githubusercontent.com/YourUsername/YourRepository/master/TS.jpg"
+        image_url = "https://raw.githubusercontent.com/shruti863/time/master/TS.jpg"
         response = requests.get(image_url)
         image = Image.open(io.BytesIO(response.content))
 
